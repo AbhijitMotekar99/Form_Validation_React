@@ -14,6 +14,10 @@ A simple React application for form validation, ensuring that user input follows
 - React.js
 - HTML/CSS
 
+Output :
+
+
+
 Usage:
 
 Clone the repository to your local machine.
@@ -21,6 +25,7 @@ Navigate to the project directory and install dependencies using npm or yarn.
 Run the development server and open the application in your web browser.
 Fill out the form fields and observe real-time validation feedback.
 Submit the form once all fields are correctly filled to complete the process.
-Author:
 
+
+Author:
 Abhijit Motekar - motekarabhijit@gmail.com
