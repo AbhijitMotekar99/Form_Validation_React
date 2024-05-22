@@ -15,7 +15,8 @@ A simple React application for form validation, ensuring that user input follows
 - HTML/CSS
 
 Output :
-
+![Signup](https://github.com/AbhijitMotekar99/Form_Validation_React/blob/main/src/result/form1.png)
+![UserDetails](https://github.com/AbhijitMotekar99/Form_Validation_React/blob/main/src/result/form2.png)
 
 
 Usage:
