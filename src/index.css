@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+.main {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 30px;
+  background: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 
+  inset 1px 1px 8px rgba(0, 0, 0, 0.1), 
+  inset -1px -1px 1px rgba(0, 0, 0, 0.1),
+  inset 1px -1px 1px rgba(0, 0, 0, 0.1), 
+  inset -1px 1px 1px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins' , sans-serif;
+}
+
+.main h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #333;
+  letter-spacing: 0.11rem;
+  opacity: 0;
+  animation: slideBottom 1.2s ease forwards;
+}
+
+.main h3 span{
+  color: rgb(0, 172, 14);
+  font-size: 1.6rem;
+}
+
+.main h4{
+  font-size: 120%;
+  text-decoration: underline;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 10px;
+  opacity: 0;
+  animation: slideRight 1s ease forwards;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  padding: 10px;
+  margin: 0px 0;
+  border: 1px solid #b9b8b8;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.errorMsg {
+  color: red;
+  font-size: 14px;
+  margin-top: -8px;
+  margin-bottom: 8px;
+}
+
+button {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 550;
+}
+
+button:hover {
+  background-color: #45a049;
+  transform: scale(98%);
+  transition: 0.2s ease;
+}
+
+.details {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .main {
+    padding: 10px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select {
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+}
+
+
+@keyframes slideRight {
+  0%{
+      transform: translateX(-100px);
+      opacity: 0;
+  }
+
+  100%{
+      transform: translateX(0);
+      opacity: 1;
+  }
+  
+}
+
+@keyframes slideTop {
+  0%{
+      transform: translateY(100px);
+      opacity: 0;
+  }
+
+  100%{
+      transform: translateY(0);
+      opacity: 1;
+  }
+  
+}
+
+@keyframes slideBottom {
+  0%{
+      transform: translateY(-100px);
+      opacity: 0;
+  }
+
+  100%{
+      transform: translateY(0);
+      opacity: 1;
+  }
+  
+}
+
+@keyframes slideLeft {
+  0%{
+      transform: translateX(100px);
+      opacity: 0;
+  }
+
+  100%{
+      transform: translateX(0);
+      opacity: 1;
+  }
+  
+}
+
+@keyframes zoomIn {
+  0%{
+      transform: scale(.5);
+      opacity: 0;
+  }
+
+  100%{
+      transform: scale(1);
+      opacity: 1;
+  }
+  
+}
